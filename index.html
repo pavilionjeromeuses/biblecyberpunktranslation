@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberpunk Holy Bible</title>
+    <link rel="stylesheet" href="dist\styles.css">
+    <link rel="icon" type="image/x-icon" href="images\_cf586e26-cb21-449b-b93a-aaf164aa5d7d-removebg-preview.png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="word left-word">ホーリー</div>
+            <div class="logo">
+                <img src="images/cyberpunk-holy-bible-logo-japanese-graphic-vertical-cover-design-236606900.png" alt="Cyberpunk Logo">
+            </div>
+            <div class="word right-word">サイバー</div>
+        </div>
+    </header>
+
+    <div class="empty-boxes-container">
+        <div id="empty-box1"><p>Visor<br>Datafile<br>データファイル</p></div>
+        <div id="empty-box2"><p>InfoGlyph<br>Segment<br>セグメント</p></div>
+    </div>
+
+    <footer>
+        <div class="bottom-section">
+            <div class="select-wrapper">
+                <label for="select1">Chronicles of the Binary</label>
+                <select id="select1">
+                    <option value="OCOTB">Old Chronicles of the Binary (Old Testament)</option>
+                    <option value="NCOTB">New Chronicles of the Binary (New Testament)</option>
+                </select>
+            </div>
+            <div class="select-wrapper">
+                <label for="select2">Datafile</label>
+                <select id="select2"></select>
+                </select>
+            </div>
+            <div class="select-wrapper">
+                <label for="select3">Segment</label>
+                <select id="select3" onchange="updateBoxes()">
+                </select>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <script src="script.js">script.js</script>
+    <script src="script2.js">script.js</script>
+</body>
+</html>
